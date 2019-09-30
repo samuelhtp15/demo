@@ -14,7 +14,7 @@ jobs:
       run: |
         ls -l
         echo 'Docker login'
-        docker login -u $DOCKER_HUB -p $DOCKER_HUB_KEY
+        docker login -u samuel1502 -p password123#
         echo 'Running build...'
         docker build . --file Dockerfile --tag samuel1502/gitactionslab:lab1-gitaction-latest
         echo 'Pushing image...'
