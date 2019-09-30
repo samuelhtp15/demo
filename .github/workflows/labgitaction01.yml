@@ -1,8 +1,7 @@
-name: CI01
-on:
-  push:
-    branches:
-      -master
+name: Docker Image CI-test01
+
+on: [push]
+
 jobs:
   build:
     runs-on: ubuntu-latest
