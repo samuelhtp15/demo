@@ -1,4 +1,4 @@
-name: Docker Image CI-test01
+name: Docker testing-gitactionslab
 
 on: [push]
 
